@@ -32,7 +32,18 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Created CSS */
+
+.Title {
+  margin: auto;
+  padding-top: 18%;
+  padding-left: 60px;
+  text-align: left;
+  font-size: 100px;
 }
