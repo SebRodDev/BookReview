@@ -1,11 +1,11 @@
 .App {
   text-align: center;
-  background: linear-gradient(#482E1D, #895D2B);
+  background: linear-gradient(135deg, #7d5239, #f4a852);
   background-size: cover;
   background-position: center;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -86,4 +86,41 @@
   to {
     width: 100%
   }
+}
+
+.subtext {
+  margin: 0;
+  margin-top: 10px;
+  padding-left: 70px;
+  width: 0;
+  overflow: hidden;
+  text-align: left;
+  color: white;
+  white-space: nowrap;
+  text-shadow: 2px 2px black;
+  font-size: 20px;
+  animation: typing 4s forwards normal;
+  animation-delay: 0.5s;
+}
+
+.trendingBooksSection {
+  margin-top: 50vh;
+  height: 100vh;
+  background-color: white;
+}
+
+.trendingTitle {
+  margin: 0;
+  padding-left: 60px;
+  padding-top: 0;
+  width: 0;
+  text-align: left;
+  overflow: hidden;
+  font-size: 80px;
+  white-space: nowrap;
+  color: white;
+  animation:
+    typing 4s forwards normal;
+  overflow: hidden;
+  text-shadow: 3px 3px black;
 }

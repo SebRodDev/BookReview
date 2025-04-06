@@ -19,12 +19,28 @@ button {
 .bookNavigator {
     background: transparent;
     border: transparent;
-    color: white;
+    color: #FFFDDD;
     cursor: pointer;
     text-shadow: 3px 3px black;
+    transition: 0.5s all;
 }
 
 .bookNavigator:hover {
+    transition-delay: 0.5s ease-in;
     color: #517174;
     cursor: pointer;
+}
+
+.accountButtons {
+    border-radius: 20px;
+    padding: 8px;
+    border: transparent;
+    background-color: #FFFDDD;
+    transition: 0.5s all;
+}
+
+.accountButtons:hover {
+    transition-delay: 0.5s ease-in;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    color: #517174;
 }
