@@ -1,4 +1,30 @@
 .mainNavigationBar {
     width: 100vw;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+}
+
+button {
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bookNavigator {
     background: transparent;
+    border: transparent;
+    color: white;
+    cursor: pointer;
+    text-shadow: 3px 3px black;
+}
+
+.bookNavigator:hover {
+    color: #517174;
+    cursor: pointer;
 }
